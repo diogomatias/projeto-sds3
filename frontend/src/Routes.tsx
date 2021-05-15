@@ -1,7 +1,6 @@
 import Dashboard from 'pages/Dashboard';
 import Home from 'pages/Home';
-import { Route, Switch } from 'react-router';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 const Routes = () => {
     return (
@@ -13,8 +12,6 @@ const Routes = () => {
                 <Route path="/dashboard">
                     <Dashboard />
                 </Route>
-
-
             </Switch>
         </BrowserRouter>
     );
