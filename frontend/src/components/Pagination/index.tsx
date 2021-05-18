@@ -6,6 +6,7 @@ type Props = {
 }
 
 const Pagination = ({ page, onPageChange }: Props) => {
+
     return (
         <div className="row d-flex justify-content-center">
             <nav>
@@ -21,7 +22,7 @@ const Pagination = ({ page, onPageChange }: Props) => {
                     </li>
                 </ul>
             </nav>
-        </div >
+        </div>
     )
 }
 
